@@ -1,0 +1,173 @@
+<html><head><link href='../liveapi.css' rel='stylesheet' type='text/css'></head><title>LiveAPI.org: Ableton Live API Documentation - Track.Track</title><body>
+<h1>Track.Track</h1>
+<pre class='ableton_license'>
+Live API for Python (c)1999-2007 Ableton AG
+
+Ableton grants to you the license to use Live's Python API and to
+distribute applications based on the API under the following
+conditions.
+This license does not affect the terms of Ableton Live's End User
+License Agreement or other licenses in any way.
+
+1. Your application is released under the GPL license
+   (http://www.gnu.org/licenses/gpl.html).
+
+2. The end user is unmistakably informed about our conditions
+   of use by presenting him the following disclaimer wherever
+   applicable (download pages, installer dialogs, text files):
+
+   DISCLAIMER: This work is based on an unsupported interface
+   of Ableton Live 6.  Use at your own risk.  It is likely that
+   things will not work with future versions of Live.  Please
+   do not use it for applications which you need to rely on.
+
+   Manipulating your Live Sets via this interface or software
+   based on it might damage your documents in a way that they
+   not longer can be opened in the current or future versions
+   of Live.
+
+   Please do not contact Ableton about questions and problems
+   with this software.
+</pre>
+<TABLE width='100%'><TR><TH class='docheader'>Classes</TH><TD><TABLE WIDTH='100%'>
+	<TR class='even'><TD class='class_name'> View </TD><TD class='class_doc'> Representing the view aspects of a Track. </TD></TR>
+</TABLE></TD><TR><TR><TD COLSPAN=2><HR></HR></TD><TR><TR><TH class='docheader'>Methods</TH><TD><TABLE WIDTH='100%'>
+	<TR class='odd'><TD class='method_name'> __eq__ </TD><TD class='method_doc'> no documentation </TD></TR>
+	<TR class='even'><TD class='method_name'> __ne__ </TD><TD class='method_doc'> no documentation </TD></TR>
+	<TR class='odd'><TD class='method_name'> __nonzero__ </TD><TD class='method_doc'> no documentation </TD></TR>
+	<TR class='even'><TD class='method_name'> add_arm_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "arm" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_clip_slots_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "clip_slots" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> add_current_input_routing_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "current_input_routing" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_current_input_sub_routing_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "current_input_sub_routing" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> add_current_output_routing_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "current_output_routing" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_current_output_sub_routing_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "current_output_sub_routing" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> add_devices_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "devices" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_has_audio_input_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "has_audio_input" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> add_has_audio_output_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "has_audio_output" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_has_midi_input_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "has_midi_input" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> add_has_midi_output_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "has_midi_output" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_input_meter_level_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "input_meter_level" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> add_mute_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "mute" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_name_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "name" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> add_output_meter_level_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "output_meter_level" has changed. </TD></TR>
+	<TR class='odd'><TD class='method_name'> add_solo_listener </TD><TD class='method_doc'> Add a listener function or method, which will be called as soon as the
+property "solo" has changed. </TD></TR>
+	<TR class='even'><TD class='method_name'> arm_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "arm". </TD></TR>
+	<TR class='odd'><TD class='method_name'> clip_slots_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "clip_slots". </TD></TR>
+	<TR class='even'><TD class='method_name'> current_input_routing_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "current_input_routing". </TD></TR>
+	<TR class='odd'><TD class='method_name'> current_input_sub_routing_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "current_input_sub_routing". </TD></TR>
+	<TR class='even'><TD class='method_name'> current_output_routing_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "current_output_routing". </TD></TR>
+	<TR class='odd'><TD class='method_name'> current_output_sub_routing_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "current_output_sub_routing". </TD></TR>
+	<TR class='even'><TD class='method_name'> devices_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "devices". </TD></TR>
+	<TR class='odd'><TD class='method_name'> has_audio_input_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "has_audio_input". </TD></TR>
+	<TR class='even'><TD class='method_name'> has_audio_output_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "has_audio_output". </TD></TR>
+	<TR class='odd'><TD class='method_name'> has_midi_input_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "has_midi_input". </TD></TR>
+	<TR class='even'><TD class='method_name'> has_midi_output_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "has_midi_output". </TD></TR>
+	<TR class='odd'><TD class='method_name'> input_meter_level_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "input_meter_level". </TD></TR>
+	<TR class='even'><TD class='method_name'> jump_in_running_session_clip </TD><TD class='method_doc'> Jump forward or backward in the currently running Sessionclip (if any)
+by the specified relative amount in beats. Does nothing if no Session Clip
+is currently running. </TD></TR>
+	<TR class='odd'><TD class='method_name'> mute_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "mute". </TD></TR>
+	<TR class='even'><TD class='method_name'> name_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "name". </TD></TR>
+	<TR class='odd'><TD class='method_name'> output_meter_level_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "output_meter_level". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_arm_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "arm". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_clip_slots_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "clip_slots". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_current_input_routing_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "current_input_routing". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_current_input_sub_routing_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "current_input_sub_routing". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_current_output_routing_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "current_output_routing". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_current_output_sub_routing_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "current_output_sub_routing". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_devices_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "devices". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_has_audio_input_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "has_audio_input". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_has_audio_output_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "has_audio_output". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_has_midi_input_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "has_midi_input". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_has_midi_output_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "has_midi_output". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_input_meter_level_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "input_meter_level". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_mute_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "mute". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_name_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "name". </TD></TR>
+	<TR class='even'><TD class='method_name'> remove_output_meter_level_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "output_meter_level". </TD></TR>
+	<TR class='odd'><TD class='method_name'> remove_solo_listener </TD><TD class='method_doc'> Remove a previously set listener function or method from
+property "solo". </TD></TR>
+	<TR class='even'><TD class='method_name'> solo_has_listener </TD><TD class='method_doc'> Returns true, if the given listener function or method is connected
+to the property "solo". </TD></TR>
+</TABLE></TD><TR><TR><TD COLSPAN=2><HR></HR></TD><TR><TR><TH class='docheader'>Attributes</TH><TD><TABLE WIDTH='100%'>
+	<TR class='odd'><TD class='attribute_name'> __dict__ </TD><TD class='attribute_type'>  dict </TD><TD class='attribute_value'> {} </TD></TR>
+	<TR class='even'><TD class='attribute_name'> __weakref__ </TD><TD class='attribute_type'>  NoneType </TD><TD class='attribute_value'> None </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> arm </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 0 </TD></TR>
+	<TR class='even'><TD class='attribute_name'> can_be_armed </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 1 </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> clip_slots </TD><TD class='attribute_type'>  tuple </TD><TD class='attribute_value'> (<A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>, <A HREF="ClipSlot.ClipSlot.html">ClipSlot.ClipSlot</A>) </TD></TR>
+	<TR class='even'><TD class='attribute_name'> current_input_routing </TD><TD class='attribute_type'>  unicode </TD><TD class='attribute_value'> Ext. In </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> current_input_sub_routing </TD><TD class='attribute_type'>  unicode </TD><TD class='attribute_value'> 1/2 </TD></TR>
+	<TR class='even'><TD class='attribute_name'> current_output_routing </TD><TD class='attribute_type'>  unicode </TD><TD class='attribute_value'> Master </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> current_output_sub_routing </TD><TD class='attribute_type'>  unicode </TD><TD class='attribute_value'>HASH(0x84d4ecc)</TD></TR>
+	<TR class='even'><TD class='attribute_name'> devices </TD><TD class='attribute_type'>  tuple </TD><TD class='attribute_value'> (<A HREF="Device.Device.html">Device.Device</A>, <A HREF="Device.Device.html">Device.Device</A>, <A HREF="Device.Device.html">Device.Device</A>) </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> has_audio_input </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 1 </TD></TR>
+	<TR class='even'><TD class='attribute_name'> has_audio_output </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 1 </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> has_midi_input </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 0 </TD></TR>
+	<TR class='even'><TD class='attribute_name'> has_midi_output </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 0 </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> input_meter_level </TD><TD class='attribute_type'>  float </TD><TD class='attribute_value'> 0.0 </TD></TR>
+	<TR class='even'><TD class='attribute_name'> input_routings </TD><TD class='attribute_type'>  tuple </TD><TD class='attribute_value'> (uExt. In, uArKaosVJ, uResampling, u1-Audio, u2-MIDI, u3-Audio, u4-Audio, u5-Audio, uA-Return, uB-Return, uMaster, uNo Input) </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> input_sub_routings </TD><TD class='attribute_type'>  tuple </TD><TD class='attribute_value'> (u1/2, u1, u2) </TD></TR>
+	<TR class='even'><TD class='attribute_name'> mixer_device </TD><TD class='attribute_type'> class <A HREF="MixerDevice.MixerDevice.html">MixerDevice.MixerDevice</A> </TD><TD class='attribute_value'> <A HREF="MixerDevice.MixerDevice.html">MixerDevice.MixerDevice</A> </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> mute </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 0 </TD></TR>
+	<TR class='even'><TD class='attribute_name'> name </TD><TD class='attribute_type'>  unicode </TD><TD class='attribute_value'> Audio </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> output_meter_level </TD><TD class='attribute_type'>  float </TD><TD class='attribute_value'> 0.0 </TD></TR>
+	<TR class='even'><TD class='attribute_name'> output_routings </TD><TD class='attribute_type'>  tuple </TD><TD class='attribute_value'> (uExt. Out, uMaster, u1-Audio, u3-Audio, u4-Audio, u5-Audio, uSends Only) </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> output_sub_routings </TD><TD class='attribute_type'>  tuple </TD><TD class='attribute_value'> (u,) </TD></TR>
+	<TR class='even'><TD class='attribute_name'> solo </TD><TD class='attribute_type'>  int </TD><TD class='attribute_value'> 0 </TD></TR>
+	<TR class='odd'><TD class='attribute_name'> view </TD><TD class='attribute_type'> class <A HREF="Track.View.html">Track.View</A> </TD><TD class='attribute_value'> <A HREF="Track.View.html">Track.View</A> </TD></TR>
+</TABLE></TD><TR><TR><TD COLSPAN=2><HR></HR></TD><TR><TR><TH class='docheader'>Builtins</TH><TD><TABLE WIDTH='100%'>
+	<TR class='even'><TD colspan=2> __delattr__ </TD></TR>
+	<TR class='odd'><TD colspan=2>  __getattribute__ </TD></TR>
+	<TR class='even'><TD colspan=2>  __hash__ </TD></TR>
+	<TR class='odd'><TD colspan=2>  __init__ </TD></TR>
+	<TR class='even'><TD colspan=2>  __new__ </TD></TR>
+	<TR class='odd'><TD colspan=2>  __reduce__ </TD></TR>
+	<TR class='even'><TD colspan=2>  __repr__ </TD></TR>
+	<TR class='odd'><TD colspan=2>  __setattr__ </TD></TR>
+	<TR class='even'><TD colspan=2>  __str__ </TD></TR>
+</TABLE></TD><TR><TR><TD COLSPAN=2><HR></HR></TD><TR></TABLE></BODY></HTML>

@@ -1,0 +1,47 @@
+-----------------------------------------------------------------------------
+INSTALLATION:
+-----------------------------------------------------------------------------
+
+To install the LiveAPI.org SDK, copy LiveOSC and LiveTelnet directories
+to your 'MIDI Remote Scripts' directory under your Ableton install path.
+
+If you are up to date with your Ableton version, it will probably be:
+
+	C:\Program Files\Ableton\Live 6.0.7\Resources\MIDI Remote\Scripts
+
+-----------------------------------------------------------------------------
+TO USE:
+-----------------------------------------------------------------------------
+
+Open up Ableton's preferences, and under the 'MIDI / Sync' tab, you can
+select LiveOSC or LiveTelnet (or both) as 'Remote Surfaces'. Once
+selected, they will both be operational and ready for use. To use some
+features you will need to install Python22, available from
+http://www.python.org/download/releases/2.2.3/
+
+LiveOSC:
+
+LiveOSC is heavily documented and default callbacks are provided, as
+well as a sample OSC client. To run the sample OSC client, you will
+need to have Python22 installed. LiveOSC will work without Python22,
+but you will need to generate OSC messages with a client application
+to make use of its capabilities.
+
+By default the server will listen on port 9000 and respond on port 9001.
+
+Look at 'sample_osc_client.py' for examples of use, also look at 
+LiveOSC/OSCAPI.txt for a list of currently implemented OSC commands.
+
+LiveTelnet:
+
+You simply need to 'telnet localhost' to access the faux Python CLI. To
+use LiveTelnet you will need to have Python22 installed in C:\Python22.
+
+Live API Documentation:
+
+Documentation in HTML format for the Live API is available in the
+docs/ directory.
+
+-----------------------------------------------------------------------------
+For more documentation, please visit our website at http://www.liveapi.org/
+-----------------------------------------------------------------------------

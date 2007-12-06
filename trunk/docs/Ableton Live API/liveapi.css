@@ -1,0 +1,30 @@
+.docheader {
+	text-align: right;
+	vertical-align: top;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: large;
+}
+
+.attribute_value {
+	text-align: left;
+	vertical-align: top;
+	white-space: normal;
+}
+.attribute_type {
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.attribute_name {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+table {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
