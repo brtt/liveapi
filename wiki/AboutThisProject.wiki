@@ -1,0 +1,12 @@
+#summary A little info about this project
+
+= Introduction =
+
+This project was originally released back in March or so, 2007. I had a Joomla CMS setup which got phphaxed, so I've moved the project here. 
+
+I'm not currently doing any active development on it, but you're welcome to submit patches if you want. Just request to be added to the project.
+
+
+= Details =
+
+No details!
